@@ -2,12 +2,12 @@ import {HttpFunction} from '@google-cloud/functions-framework/build/src/function
 import {CloudTasksClient} from '@google-cloud/tasks';
 
 // your GCP Project id
-const project = 'foyasells-rnd';
+const project = '';
 // GCP region in which to create the queue
-const location = 'us-central1';
+const location = '';
 // instantiates a client
 const client = new CloudTasksClient({
-  keyFilename: './foyasells-rnd-0067c30b4c7e.json',
+  keyFilename: '',
 });
 
 const createQueue = async (name: string) => {
